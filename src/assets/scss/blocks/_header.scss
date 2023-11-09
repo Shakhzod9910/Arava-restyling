@@ -1,0 +1,196 @@
+.header{
+    .header-wrapper{
+        display: flex;
+        justify-content: space-between;
+        .left-side{
+            h1{
+                font-family: sans-serif;
+                font-weight: 700;
+                font-size: 48px;
+                max-width: 290px;
+                line-height: 62px;
+                margin-top: 148px;
+                margin-bottom: 0;
+                span{
+                    color: #2A81DD;
+                    font-family: sans-serif;
+
+                }
+            }
+            p{
+                margin-top: 8px;
+                font-family: "Circular";
+                font-weight: 450;
+                color: #6A6C6D;
+                max-width: 300px;
+            }
+            .download{
+                display: flex;
+                color: #2A81DD;
+                font-size: 16px;
+                font-family: "Circular";
+                font-weight: 450;
+                margin-top: 32px;
+                align-items: center;
+                .icon{
+                    margin-left: 14px;
+                    width: 23px;
+                    height: 23px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+            }
+            .stores{
+                display: flex;
+                margin-top: 16px;
+                .img-wrapper{
+                    margin-right: 16px;
+                }
+            }
+        }
+        .right-side{
+            .img-wrapper{
+                width: 550px;
+                margin-top: 80px;
+            }
+        }
+    }
+}
+
+@media(max-width:1200px){
+    .header{
+        .container{
+            padding: 0 50px;
+        }
+    }
+}
+
+@media(max-width:1000px){
+    .header{
+        .container{
+            padding: 0 50px;
+        }
+        .header-wrapper{
+            display: flex;
+            justify-content: space-between;
+            flex-direction: column-reverse;
+            .left-side{
+                h1{
+                    font-family: sans-serif;
+                    font-weight: 700;
+                    font-size: 40px;
+                    max-width: 290px;
+                    line-height: 62px;
+                    margin-top: 70px;
+                    margin-bottom: 0;
+                    }
+                }
+                p{
+                    margin-top: 8px;
+                    font-family: "Circular";
+                    font-weight: 450;
+                    color: #6A6C6D;
+                    max-width: 300px;
+                    font-size: 16px;
+                }
+                .download{
+                    display: flex;
+                    color: #2A81DD;
+                    font-size: 16px;
+                    font-family: "Circular";
+                    font-weight: 450;
+                    margin-top: 32px;
+                    align-items: center;
+                    .icon{
+                        margin-left: 14px;
+                        width: 23px;
+                        height: 23px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                    }
+                }
+                .stores{
+                    display: flex;
+                    margin-top: 16px;
+                    .img-wrapper{
+                        margin-right: 16px;
+                    }
+                }
+            }
+            .right-side{
+                .img-wrapper{
+                    width: 450px !important;
+                    margin-top: 80px;
+                }
+            }
+        }
+    }
+
+
+
+    @media(max-width: 550px){
+        .header{
+            .container{
+                padding: 0 20px;
+            }
+            .header-wrapper{
+                display: flex;
+                justify-content: space-between;
+                flex-direction: column-reverse;
+                align-items: center;
+                .left-side{
+                    h1{
+                        font-family: sans-serif;
+                        font-weight: 700;
+                        font-size: 32px;
+                        max-width: 200px;
+                        line-height: 48px;
+                        margin-top: 24px;
+                        margin-bottom: 0;
+                        }
+                    }
+                    p{
+                        margin-top: 8px;
+                        font-family: "Circular";
+                        font-weight: 450;
+                        color: #6A6C6D;
+                        max-width: 300px;
+                        font-size: 14px;
+                        line-height: 21px;
+                    }
+                    .download{
+                        display: flex;
+                        color: #2A81DD;
+                        font-size: 16px;
+                        font-family: "Circular";
+                        font-weight: 450;
+                        margin-top: 32px;
+                        align-items: center;
+                        .icon{
+                            margin-left: 14px;
+                            width: 23px;
+                            height: 23px;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                        }
+                    }
+                    .stores{
+                        display: flex;
+                        margin-top: 16px;
+                        .img-wrapper{
+                            margin-right: 16px;
+                        }
+                    }
+                }
+                .right-side{
+                    .img-wrapper{
+                        width: 335px !important;
+                        margin-top: 16px !important;
+                    }
+                }
+            }
+        }
+    
